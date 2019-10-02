@@ -16,4 +16,20 @@ public class Planet {
 		this.satellites = satellites;
 	}
 	
+	public int getDistanceFromSun() {
+		return distanceFromSun;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public double getVolume() {
+		return volume;
+	}
+
+	public String toString() {
+		return "\n" + this.name + " - " + distanceFromSun + " million km far from the Sun; " + volume + " volume";
+	}
+	
 }
