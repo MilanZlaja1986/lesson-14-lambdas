@@ -19,7 +19,7 @@ class _2_PracticeWritingLambdas {
 	Function<String, String> REMOVE_VOWELS_LAMBDA = s -> s.replaceAll("[AEIOUaeiou", "");
 	Function<Integer, Integer> DOUBLE_LAMBDA = x -> x * 2;
 	BiFunction<Integer, Integer, Integer> PYTHAGOREAN_LAMBDA = (x,y) -> (int)Math.hypot(x, y);
-	Function<Integer, String> EVEN_ODD_LAMBDA = x -> x % 2 == 0 ? "even" : "odd";
+	Function<Integer, String> EVEN_ODD_LAMBDA;
 	Function<Character, Integer> ASCII_LAMBDA;
 	Function<String, String> CAPITALIZE_LAMBDA;
 	Function<String, String> BLACKOUT_LAMBDA;
