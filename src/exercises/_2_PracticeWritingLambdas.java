@@ -20,9 +20,9 @@ class _2_PracticeWritingLambdas {
 	Function<Integer, Integer> DOUBLE_LAMBDA = x -> x * 2;
 	BiFunction<Integer, Integer, Integer> PYTHAGOREAN_LAMBDA = (x,y) -> (int)Math.hypot(x, y);
 	Function<Integer, String> EVEN_ODD_LAMBDA = x -> x % 2 == 0 ? "even" : "odd";
-	Function<Character, Integer> ASCII_LAMBDA = c -> (int) c;
-	Function<String, String> CAPITALIZE_LAMBDA = s -> s.substring(0, 1).toUpperCase() + s.substring(1);
-	Function<String, String> BLACKOUT_LAMBDA = s -> s = "#".repeat(s.length());
+	Function<Character, Integer> ASCII_LAMBDA;
+	Function<String, String> CAPITALIZE_LAMBDA;
+	Function<String, String> BLACKOUT_LAMBDA;
 	
 	@Test
 	void testIncrement() {

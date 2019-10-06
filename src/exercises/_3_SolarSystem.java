@@ -24,9 +24,7 @@ public class _3_SolarSystem {
 		
 		// 3. Sort planets from largest to smallest
 		
-		Collections.sort(planets,
-				(p1, p2) -> p2.getVolume() < p1.getVolume() ? -1 : p2.getVolume() == p1.getVolume() ? 0 : 1);
-		System.out.println(planets);
+	
 		
 
 	}
